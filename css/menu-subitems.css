@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(33, 48, 90);
+    transition: all .5s;
+}
+ul {
+    list-style: none;
+   text-align: left;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(170, 141, 141);
+}
+li:hover .hijos li{
+    display: block;
+    overflow: visible;
+    height: 100%;
+   
+}
+li:hover .hijos {
+    display: block;
+    position: absolute;
+    width: 100px;
+}
+.hijos li {
+    display: block;
+    overflow: hidden;
+    background-color: rgb(114, 67, 67);
+    text-align: center;
+    border-bottom: 1px solid rgb(114, 67, 67);
+}
+li .hijos {
+    display: none;
+    position: absolute;
+    top: 101%;
+}
