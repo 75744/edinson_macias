@@ -1,0 +1,56 @@
+.pos-static-1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 3px;
+    background-color: rgb(81, 122, 109);
+    color: beige;
+    position: static;
+}
+.pos-relative-1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 3px;
+    background-color: rgb(122, 114, 81);
+    color: rgb(202, 202, 177);
+    position: relative;
+    left: 550px;
+    top: 50px;
+}
+.pos-absolute-1, .pos-absolute-2, .pos-absolute-3 {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    background-color: rgb(81, 109, 122);
+    color: rgb(178, 202, 177);
+    position: absolute;
+}
+
+.pos-absolute-1 {
+    left: 35%;
+}
+.pos-absolute-2 {
+    left: 50%;
+}
+.pos-absolute-3 {
+    left: 65%;
+}
+.pos-fixed-1 {
+    width: 150px;
+    height: 100px;
+    margin-top: 3px;
+    background-color: rgb(180, 173, 134);
+    color: rgb(41, 39, 46);
+    position: fixed;
+    left: 85%;
+    top: 10%;
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-style: initial;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(95, 39, 39);
+    font-size: 3em;
+}
