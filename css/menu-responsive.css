@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(201, 157, 146);
+    width: 100%;
+}
+ul {
+    list-style: none;
+    text-align: right;
+}
+li {
+    display: inline-block;
+}
+a {
+    display: block;
+    color: rgb(58, 58, 23);
+    font-size: 1.25em;
+    text-decoration: none;
+    padding: 25px;
+}
+.hijos {
+    position: absolute;
+}
