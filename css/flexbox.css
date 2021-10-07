@@ -1,0 +1,107 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(95, 88, 45);
+}
+.box-style-1 {
+    background: rgb(184, 172, 146);
+}
+.box-style-2 {
+    background:rgb(184, 172, 146);
+    height: 500px;
+}
+.box-style-3 {
+    background:rgb(184, 172, 146);
+    height: 600px;
+}
+.flex-direction-row{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.flex-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap ;
+ }
+ .flex-no-wrap {
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+ }
+ .flex-flow-column-wrap {
+    display: flex;
+    gap: 20px;
+    flex-flow: column wrap;
+    overflow: scroll;
+ }
+ .flex-flow-column-no-wrap {
+    display: flex;
+    gap: 20px;
+    flex-flow: column nowrap;
+ }
+ .flex-justify-space-betwen {
+     display: flex;
+     gap: 20px;
+     justify-content: space-between;
+ }
+ .flex-justify-space-around {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.flex-justify-space-evenly {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.flex-justify-flex-start {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.flex-justify-flex-end {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.flex-justify-flex-center {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.align-items-flex-start {
+    display: flex;
+    gap: 20px;
+    align-items:flex-start;
+}
+.align-items-flex-end {
+    display: flex;
+    gap: 20px;
+    align-items:flex-end;
+}
+.align-items-center {
+    display: flex;
+    gap: 20px;
+    align-items:center;
+    justify-content: center;
+}
+
+.item-flex {
+    background: rgb(114, 104, 80);
+    width: 300px;
+    height: 300px;
+    font-size: 1.5em;
+    margin: 20px;
+    font-style: italic;
+    text-align: center;
+}
+.item-flex1 {
+    width: 300px;
+    height: 400px;
+    background:  rgb(114, 104, 80);
+}
