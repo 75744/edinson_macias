@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    color: brown;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 800px;
+    width: 90%;
+    max-width: 1000px;
+    border: 3px solid rgb(77, 125, 197);
+    margin: 0 auto;
+    text-align: center;
+   font-size: 1em;
+    box-shadow: 5px 5px 25px cadetblue;
+}
+.contenedor > div {
+
+    display: block;
+   /*  padding: 20px;
+    height: 100px; */
+    max-width: 1000px;
+    background-color: rgb(190, 207, 221);
+    box-shadow: 4px 4px 20px rgb(125, 150, 187);
+}
