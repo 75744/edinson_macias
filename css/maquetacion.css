@@ -1,0 +1,66 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ .encabezado, .nav-bar, .img-principal, .cards {
+     color: rgb(42, 106, 165);
+     font-size: 1.8em;
+     display: flex;
+     justify-content: center;
+ }
+ .container {
+     display: grid;
+     width: 80%;
+     margin: 0 auto;
+     max-width: 1900px;
+     gap: 20px;
+     grid-template: "encabezado       nav-bar         nav-bar"       100px
+                    "img-principal    img-principal   img-principal" 350px
+                    "cards1            cards2           cards3"          auto
+                    "cards4            cards5           cards6 "         auto;
+ }
+ .encabezado {
+     background-color: rgb(59, 113, 163);
+     grid-area: encabezado;
+     color: darkgray;
+ }
+ .nav-bar {
+     background-color: rgb(35, 150, 170);
+     grid-area: nav-bar;
+     color: rgb(194, 192, 192);
+ }
+ .img-principal {
+     background-color: rgb(116, 186, 214);
+     grid-area: img-principal;
+ 
+ }
+ .cards {
+     background: rgb(156, 219, 238);
+     grid-area: cards;
+  
+ }
+ .cards1 {
+     grid-area: cards1;
+     background: cornflowerblue;
+ }
+ .cards2 {
+    grid-area: cards2;
+    background: cornflowerblue;
+}
+.cards3 {
+    grid-area: cards3;
+    background: cornflowerblue;
+}
+.cards4 {
+    grid-area: cards4;
+    background: cornflowerblue;
+}
+.cards5 {
+    grid-area: cards5;
+    background: cornflowerblue;
+}
+.cards6 {
+    grid-area: cards6;
+    background: cornflowerblue;
+}
