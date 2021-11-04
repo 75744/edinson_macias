@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/boostrap.css">
+        <link rel="stylesheet" href="css/boostrap-style.css">
+        <link rel="stylesheet" href="icons/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <h1>Elementos de bootstrap</h1>
+        <h2>container</h2>
+        <div class="container container-style" >
+            contenedor1
+        </div>
+        <div class="container-sm container-style">
+          contenedor2
+        </div>
+        <div class="container-md container-style">
+          contenedor3
+        </div>
+        <div class="container-lg container-style"> 
+          contenedor4
+        </div>
+        <div class="container-xl container-style">
+          contenedor5
+        </div>
+        <div class="container-xxl container-style">
+          contenedor6
+        </div>
+        <div class="container-fluid container-style">
+          contenedor7
+        </div>
+        <h2>Columnas</h2>
+        <div class="container-xl">
+            <div class="row row-style">
+                <div class="col col-style">
+                    columna 1
+                </div>
+                <div class="col col-style">
+                    columna 2
+                </div>
+                <div class="col col-style">
+                    columna 3
+                </div>
+                <div class="col col-style">
+                    columna 4
+                </div>
+                <div class="col col-style">
+                    columna 5
+                </div>
+                <div class="col col-style">
+                    columna 6
+                </div>
+                <div class="col col-style">
+                    columna 7
+                </div>
+                <div class="col col-style">
+                    columna 8
+                </div>
+                <div class="col col-style">
+                    columna 9
+                </div>
+                <div class="col col-style">
+                    columna 10
+                </div>
+                <div class="col col-style">
+                    columna 11
+                </div>
+                <div class="col col-style">
+                    columna 12
+                </div>
+            </div>
+        </div>
+        <h2>basic form</h2>
+        <div class="container ">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombres</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre del usuario">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <h2>select</h2>
+        <div class="row">
+            <div class="col-4">
+                <label for="">Seleccione el municipo de recidencia</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Pitalito</option>
+                    <option value="1">San agustin</option>
+                    <option value="2">Timana</option>
+                    <option value="3">Acevedo</option>
+                  </select>
+            </div>
+        </div>
+        <h2>checks</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="form-check">
+                    <input class="form-check-input cursor-pointer" type="checkbox" value="" id="vue">
+                    <label class="form-check-label cursor-pointer" for="vue">
+                      vue.js
+                    </label>
+                  </div><div class="form-check">
+                    <input class="form-check-input cursor-pointer" type="checkbox" value="" id="js">
+                    <label class="form-check-label cursor-pointer" for="js">
+                      js.js
+                    </label>
+                  </div><div class="form-check">
+                    <input class="form-check-input cursor-pointer" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label cursor-pointer" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div><div class="form-check">
+                    <input class="form-check-input cursor-pointer" type="checkbox" value="" id="ninguno">
+                    <label class="form-check-label cursor-pointer" for="ninguno">
+                      no uso libreria
+                    </label>
+                  </div>
+                      </div>
+            <h2>radio</h2>
+            <divv class="row">
+                <div class="col-4">
+                    <div class="form-check">
+                        <input class="form-check-input cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label cursor-pointer" for="flexRadioDefault1">
+                          java
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input cursor-pointer" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label cursor-pointer" for="flexRadioDefault1">
+                          c++
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          c#
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          php
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          javascript
+                        </label>
+                      </div>
+                      <h2>boton</h2>
+                      <div class="row">
+                          <div class="col-4">
+                            <button type="button" class="btn btn-success bt-style"><i class="fas fa-shopping-cart margin-icon"></i><br/>Aceptar</button>
+                          </div>
+                        <div class="col-4">
+                          <button type="button" class="btn btn-danger bt-style"><i class="far fa-window-close margin-icon"></i>cancelar</button>
+                        </div>
+                        </div>                                                                                
+                </div>
+            </div>
+            </div>
+        </div>
+        </html>
+        <h2>Etiqueta Flotante</h2>
+       
+      
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">correo electronico: </label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">contraseña:</label>
+          </div>
+          <form class="form-floating">
+            <input type="email" class="form-control" id="floatingInputValue" placeholder="name@example.com" value="test@example.com">
+            <label for="floatingInputValue">entrada</label>
+          </form>
+          <form class="form-floating">
+            <input type="email" class="form-control is-invalid" id="floatingInputInvalid" placeholder="name@example.com" value="test@example.com">
+            <label for="floatingInputInvalid">Entrada Invalida</label>
+          </form>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comentarios</label>
+          </div>
+          <div class="form-floating">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+              <option selected>menu de seleccion</option>
+              <option value="1">uno </option>
+              <option value="2">dos</option>
+              <option value="3">tres</option>
+            </select>
+            <label for="floatingSelect">funcion de selecciones</label>
+          </div>
+          <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+                <label for="floatingInputGrid">correo electronico</label>
+              </div>
+            </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2>Boton de alerta</h2>
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+            <h2>card</h2>
+            <div class="card" style="width: 18rem;">
+              <img src="img/alien4-original.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="img/alien6-original.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="img/alien-original.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+           
+
+               <h2>carrusel</h2>
+               
+              
+               <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/5c0997bd141ca.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/NAZ_73947d84b73f441f816dac2cb1b9f46e.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <h2>modal</h2>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+            <script src="js/bootstrap.js"></script>
+            <script src="js/validation.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+          
+    </body>
